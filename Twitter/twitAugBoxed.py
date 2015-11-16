@@ -13,10 +13,10 @@ p_name='St Augustine'       #str(sys.argv[1])         #Name of place given to fi
 outputlocation=''             #str(sys.argv[2]) #Location of output file
 datereq = str(date.today())
 
-ckey = 'iAwecz40dNjlBIn8P8vm0AhmQ'
-csecret ='4QDBjOFW9cO55lyMbH9SeC35QUE0cwVSwPbGlyTYHYGYnL4DXd'
-atoken = '3609410777-49rc83R03fr1NgB65JvkTGLdZli8k8c9ZVnwioS'
-asecret = 'uK0Tn65UytvPfRcsGlbWuXhPtDOvjsGnue6rEQEmvv29s'
+ckey = ''
+csecret =''
+atoken = ''
+asecret = ''
 
 class listener(StreamListener):
     def on_data(self, data):
