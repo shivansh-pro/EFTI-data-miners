@@ -98,7 +98,7 @@ class listener(StreamListener):
         print statut
 
 def main():
-    location = [-81.6685,29.6259,-81.2132,30.2530]       #St Johns County
+    location = [-81.6685,29.6259,-81.2132,30.2530]       #St Johns County - St Augustine
     stream_log = 'tweet_id' + "|" + 'tweet_day' + "|" + 'tweet_date' + "|" + 'tweet_time' + "|" + "latitude" + "|" + "longitude" + "|" + 'text_msg' + "|" + 'favorite_count' + "|" + 'retweet_count' + "|" + 'entities_user_mentions_id' + "|" + 'entities_user_mentions_screen_name' + "|" + 'entities_hashtags' + "|" + 'entities_expanded_urls' + "|" + 'user_id' + "|" + 'user_followers_count' + "|" + 'user_statuses_count' + "|" + 'user_description' + "|" + 'user_friends_count' + "|" + 'user_location' + "|" + 'user_lang' + "|" + 'user_screen_name' + "|" + 'user_created_at' + "|" + 'lang' + "|" + 'place_country_code' + "|" + 'place_country' + "|" + 'place_name' + "|" + 'place_full_name'
     logfile = open(os.path.join(outputlocation,p_name+"-"+datereq+".dat"), "a")
     print >>logfile, stream_log
