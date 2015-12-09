@@ -1,0 +1,39 @@
+<!-- saved from url=(0017)http://localhost/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylemodal.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="scriptmodal.js"></script>
+</head>
+<body>
+<!--Popup-->
+<div class="container">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center"><span style="font-weight: bold;">Thank you for visiting our website</span></h4>
+        </div>
+        <img class="img-responsive center-block" src="nitdc_fine.png" style="margin-top: 20px">
+        <div class="modal-body">
+            <p>The Northern Indiana Tourism Development Council is conducting an online survey to understand your opinions of our website.</p>
+            <p>After you have finished your visit with our website today, we’d like you to complete a brief survey giving us your thoughts on how the site filled your needs.</p>
+            <p><span style="font-weight: bold;">Would you be willing to help us?</span></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" onclick="init();" data-dismiss="modal">Yes</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Popup-->
+</body>
+</html>
